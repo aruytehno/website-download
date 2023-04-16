@@ -1,5 +1,6 @@
 from pywebcopy import save_website
 
+
 def website(url, folder, name):
     save_website(
         url=url,
