@@ -13,5 +13,5 @@ def website(url, folder, name):
     )
 
 
-if name == 'main':
+if __name__ == '__main__':
     website('https://example.com', '/Users/your_name/IDE/', 'projekt_name')
